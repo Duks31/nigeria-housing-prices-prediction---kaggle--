@@ -1,0 +1,20 @@
+# nigeria-housing-prices-prediction---kaggle--
+
+### Using Kaggle Dataset, predict housing prices based on some faetures
+
+This datasets contains Houses listings in Nigeria and their prices based on Location and other parameters.
+
+Datashape (24326, 8)
+
+Parameters:
+
+- bedrooms -> number of bedrooms in the houses
+- bathrooms -> number of bathrooms in the houses
+- toilets -> number of toilets 
+- parking_space
+- title -> house type
+- town -> town in which the house is located
+- state -> state within Nigeria in which the house is located and finally
+- price -> the target column.
+
+Dataset: https://www.kaggle.com/datasets/abdullahiyunus/nigeria-houses-and-prices-dataset
