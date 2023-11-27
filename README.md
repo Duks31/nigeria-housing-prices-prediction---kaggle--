@@ -1,20 +1,29 @@
-# nigeria-housing-prices-prediction---kaggle--
+# Nigeria Housing Price Prediction
 
-### Using Kaggle Dataset, predict housing prices based on some faetures
+This repository contains the code and resources for predicting housing prices in Nigeria.
 
-This datasets contains Houses listings in Nigeria and their prices based on Location and other parameters.
+## Dataset
+The dataset used in this project is obtained from an archive and contains listings of houses in Nigeria along with their prices. The dataset is named `nigeria_houses_data.csv` and is located in the `archive` directory.
 
-Datashape (24326, 8)
+## Project Structure
+The project is structured as follows:
 
-Parameters:
+- **archive:** This directory contains the dataset and related information.
+- **main.ipynb:** This is the main Jupyter notebook that contains the code for data analysis and model training.
+- **README.md:** This file contains information about the project.
 
-- bedrooms -> number of bedrooms in the houses
-- bathrooms -> number of bathrooms in the houses
-- toilets -> number of toilets 
-- parking_space
-- title -> house type
-- town -> town in which the house is located
-- state -> state within Nigeria in which the house is located and finally
-- price -> the target column.
+## Setup
+To set up the project, follow these steps:
 
-Dataset: https://www.kaggle.com/datasets/abdullahiyunus/nigeria-houses-and-prices-dataset
+1. Clone the repository.
+2. Open the `main.ipynb` notebook in a Jupyter environment.
+3. Run the cells in the notebook to perform data analysis and train the model.
+
+## Usage
+To use the model for prediction, run the appropriate cells in the `main.ipynb` notebook.
+
+## Contributing
+Contributions to this project are welcome. Please create a pull request with your changes.
+
+## License
+This project is licensed under the MIT License.
